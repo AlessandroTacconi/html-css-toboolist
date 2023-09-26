@@ -1,9 +1,10 @@
 * {
     font-family: roboto;
-   
+    list-style-type: none;
+
 }
 
-header {
+#title {
     background-color: #ffffff;
     margin-top: 14;
     margin-left: 14px;
@@ -13,7 +14,61 @@ h1 {
     display: inline-block;
     vertical-align: middle;
 }
+
 .logo {
     vertical-align: middle;
 }
 
+main {
+    background-color: #f6f8f9;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 10%;
+    border-color: darkgray;
+    border: 0, 5px;
+}
+
+#task {
+    color: white;
+    background-color: #14aaf5;
+    margin-left: 55px;
+}
+
+#addsection {
+    color: lightgray;
+    background-color: #ffffff;
+}
+
+.triangle {
+    font-size: small;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+li::before {
+    content: '\2713';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    font-size: smaller;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 15px;
+    margin-left: auto;
+}
