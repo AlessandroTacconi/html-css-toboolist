@@ -34,8 +34,8 @@ main {
     margin-top: 10px;
     margin-bottom: 5px;
     padding: 5px;
-    border-radius: 10%;
-    border-color: darkgray;
+    border-radius: 20%;
+    border-color: #f6f8f9;
     border: 0, 5px;
 }
 
@@ -46,7 +46,7 @@ main {
 }
 
 #addsection {
-    color: lightgray;
+    color: gray;
     background-color: #ffffff;
 }
 
@@ -56,6 +56,10 @@ main {
 
 ul {
     padding-inline-start: 0px;
+}
+
+li {
+    margin-top: 15px;
 }
 
 li::before {
@@ -68,9 +72,10 @@ li::before {
     color: green;
     font-size: smaller;
     vertical-align: middle;
-    text-align: center;
+    text-align: middle;
     line-height: 15px;
     margin-left: auto;
+
 }
 
 .block {
@@ -84,5 +89,34 @@ li::before {
 }
 
 .blue {
-    background-color: #14aaf5;;
+    background-color: #14aaf5;
+}
+
+.purple{
+    background-color: #ab5de6;
+}
+
+.green{
+    background-color: #2cc6ab;
+}
+
+.orange {
+    background-color: #ff9b00;
+}
+
+.pink {
+    background-color: #ec4a9d;
+}
+
+.lightgreen {
+    background-color: #a3d116;
+}
+
+h3 {
+    margin-block-start: 50px;
+    margin-block-end: 15px;
+}
+
+.list {
+    margin-left: 55px;
 }
