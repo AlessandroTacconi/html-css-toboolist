@@ -62,7 +62,7 @@ li {
     margin-top: 15px;
 }
 
-li::before {
+li.green-check::before {
     content: '\2713';
     display: inline-block;
     height: 15px;
@@ -72,10 +72,26 @@ li::before {
     color: green;
     font-size: smaller;
     vertical-align: middle;
-    text-align: middle;
+    text-align: center;
     line-height: 15px;
     margin-left: auto;
+    margin-right: 5px;
+}
 
+li.red-cross::before {
+    content: '\2717';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    font-size: smaller;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 15px;
+    margin-left: auto;
+    margin-right: 5px;
 }
 
 .block {
